@@ -1,0 +1,11 @@
+{
+  "name": "visual-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sania",
+  "license": "ISC",
+  "description": "Visual testing using BackstopJS"
+}
