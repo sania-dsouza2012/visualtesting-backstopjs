@@ -1,32 +1,32 @@
 {
-  "id": "backstop_default",
+  "id": "Coravin",
   "viewports": [
     {
       "label": "laptop",
-      "width": 1368,
-      "height": 912
+      "width": 1380,
+      "height": 768
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
+      "label": "Home banner",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
+      "url": "https://www.coravin.ca/fr",
       "referenceUrl": "",
       "readyEvent": "",
       "readySelector": "",
-      "delay": 0,
+      "delay": 500,
       "hideSelectors": [],
       "removeSelectors": [],
       "hoverSelector": "",
       "clickSelector": "",
       "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
+      "selectors": [".image__hero__pane"],
+      "selectorExpansion": false,
       "expect": 0,
-      "misMatchThreshold" : 0.1,
+      "misMatchThreshold" : 1,
       "requireSameDimensions": true
     }
   ],
